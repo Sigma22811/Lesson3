@@ -1,6 +1,6 @@
 print ("Lesson3")
 
-class Student: 2 usage
+class Student:
     def __init__(self,Name,Surname,Age):
         self.Name=Name
         self.Surname=Surname
@@ -14,6 +14,6 @@ Student1 = Student("Vitalik","Oxygen",42)
 
 Student2 = Student( "Ramzes","Strela",25)
 
-student1.print_student()
+Student1.print_student()
 
-student2.print_student()
+Student2.print_student()
